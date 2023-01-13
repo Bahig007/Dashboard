@@ -1,0 +1,49 @@
+.booking-container {
+    margin-left: 30px;
+}
+.booking-container h1 {
+    margin-top: 30px;
+}
+.car-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+.select select {
+width: 122px;
+height: 36px;
+background: #FFFFFF;
+border-radius: 22.5px;
+padding: 0px 10px;
+outline: none;
+border: none;
+margin-right: 20px;
+}
+.sort {
+    display: flex;
+    flex-direction: row;
+}
+.sort .svg:nth-child(1) {
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.sort .svg:nth-child(2) {
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #A162F7;
+    cursor: pointer;
+}

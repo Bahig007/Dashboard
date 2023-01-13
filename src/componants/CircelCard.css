@@ -1,0 +1,30 @@
+.circel-ratio {
+    width: 112px;
+    height: 112px;
+}
+.circel-card {
+    width: 232px;
+    height: 266px;
+    background-color: #fff;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.circel-card p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.circel-icon {
+    border-radius: 30px;
+    padding: 10px;
+    height: 38px;
+    width: 38px;
+
+}
+.circel-icon img {
+    margin-left:5px ;
+    margin-bottom: 5px;
+}

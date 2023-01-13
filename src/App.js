@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import NavBar from './componants/NavBar'
+import Booking from './componants/Booking'
+import Header from './componants/Header'
+import { Routes, Route} from 'react-router-dom';
+import DashBoard from './componants/DashBoard';
+const App = () => {
+    return ( 
+        <div className="main">
+            <div className='nav'>
+                
+                <NavBar/>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+            </div>
+            <div className='content'>
+                <div className='header'><Header/></div>
+                <Routes>
+                        <Route exact path='/' element={<DashBoard/>}/>
+                        <Route exact path='/Booking' element={<Booking/>}/>
+
+
+                </Routes>
+            </div>
+        </div>
+     );
 }
-
+ 
 export default App;

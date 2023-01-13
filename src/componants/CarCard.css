@@ -1,0 +1,109 @@
+
+.card-holder {
+    min-width: 318px;
+    height: 236px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+}
+.card-holder:nth-child(1) {
+   
+    background-color: #F4E3E5;
+}
+.card-holder:nth-child(2) {
+    background-color: #E3ECF1;
+}
+.card-holder:nth-child(3) {
+    background-color: #E1DFA4;
+}
+.card-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 27px;
+    
+}
+.card-name img {
+    height: 21px;
+    width: 20px;
+    
+}
+.card-name h4 {
+    height: 24px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 136px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #242731;
+    margin-bottom: 12px;
+}
+.car-name {
+    margin-left: 27px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1F2128;
+    margin-top: 11px;
+}
+.card-pic {
+    margin-left: 27px;
+}
+.card-pic img {
+    width: 257px;
+    height: 106px;
+    
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 27px;
+    margin-top: 10px;
+    
+}
+.icons img {
+    width: 17px;
+    height: 17px;  
+}
+.icons img:nth-child(3) {
+    margin-left: 17px;
+    
+}
+.icons img:nth-child(4) {
+    margin-left: 17px;
+}
+.icons p {
+    width: 30px;
+    height: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #72767C;
+    margin-left: 17px;
+}
+.icons-holder {
+    display: flex;
+    flex-direction: row;
+}
+.icon-text {
+    margin-right: 27px;
+    width: 39px;
+    height: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #72767C;
+}

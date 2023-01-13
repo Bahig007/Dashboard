@@ -1,0 +1,50 @@
+
+
+.logo {
+    margin-bottom: 35px;
+    display: flex;
+
+}
+.logo img {
+    width: 29px;
+    height: 29px;
+    margin-right: 12px;
+}
+.logo h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1F2128;
+}
+.button {
+    padding: 7px 8px;
+    width: 174px;
+    height: 34px;
+    border-radius: 6px;
+    
+}
+.button:hover {
+    background: #F3F5F8;
+}
+.button img {
+    width: 17px;
+    height: 17px;
+    align-self: center;
+}
+.button a {
+    text-decoration: none;
+    width: 61px;
+    height: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5F6165;
+    margin-left: 10px;
+}
+.settings .button:first-child {
+    margin-bottom: 20px;
+}
